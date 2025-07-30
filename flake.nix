@@ -66,7 +66,7 @@
         pnpmDeps = pkgs.pnpm_10.fetchDeps {
           inherit (finalAttrs) pname version src;
           fetcherVersion = 2;
-          hash = "sha256-m8Ywxc/bbkgoJuFoOhAS/wdIds00ypGdAfP12PpUeI0=";
+          hash = "sha256-zbirZPJe4ldNYk0T1wllUSTSPL935rLAM8dxlDPTzBc=";
         };
 
         env.COREPACK_ENABLE_STRICT = 0;

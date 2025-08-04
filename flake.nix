@@ -13,7 +13,7 @@
       inputs.nixpkgs.follows = "nixpkgs";
     };
     nur-pinned = {
-      url = "github:nix-community/NUR/c9be8e142c0f9c8b4b646e680f9b149f712a9c2d";
+      url = "github:nix-community/NUR/3dc0c2d2f50ed9bbceae12663cf717fd99302ab5";
       inputs.nixpkgs.follows = "nixpkgs";
     };
   };

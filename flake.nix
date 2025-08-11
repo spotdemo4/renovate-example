@@ -12,13 +12,13 @@
       url = "github:nix-community/NUR";
       inputs.nixpkgs.follows = "nixpkgs";
     };
-    nur-pin-rev = {
-      url = "github:nix-community/NUR/3fbe860b7fef1063e585d17e1788248f160658d8";
-      inputs.nixpkgs.follows = "nixpkgs";
+    renovate-main = {
+      url = "github:renovatebot/renovate/f46a720b5a1e509b619db06505d0dbfed718b803";
+      flake = false;
     };
-    nur-pin-ref-rev = {
-      url = "git+https://github.com/nix-community/NUR?ref=main&rev=3fbe860b7fef1063e585d17e1788248f160658d8";
-      inputs.nixpkgs.follows = "nixpkgs";
+    renovate-next = {
+      url = "git+https://github.com/renovatebot/renovate?ref=next&rev=88b9f25a91ed053c5ef45534e7e7e53fa1568469";
+      flake = false;
     };
   };
 

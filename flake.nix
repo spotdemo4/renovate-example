@@ -13,11 +13,11 @@
       inputs.nixpkgs.follows = "nixpkgs";
     };
     renovate-main = {
-      url = "github:renovatebot/renovate/f46a720b5a1e509b619db06505d0dbfed718b803";
+      url = "github:renovatebot/renovate/8aa413192093aceedcba13445f3ff582c93a58b0";
       flake = false;
     };
     renovate-next = {
-      url = "git+https://github.com/renovatebot/renovate?ref=next&rev=88b9f25a91ed053c5ef45534e7e7e53fa1568469";
+      url = "git+https://github.com/renovatebot/renovate?ref=next&rev=7d8d31a776caf76b64eaecec690e3f649927ba34";
       flake = false;
     };
   };

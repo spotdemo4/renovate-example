@@ -17,7 +17,7 @@
       flake = false;
     };
     renovate-next = {
-      url = "git+https://github.com/renovatebot/renovate?ref=next&rev=88b9f25a91ed053c5ef45534e7e7e53fa1568469";
+      url = "git+https://github.com/renovatebot/renovate?ref=next&rev=7d8d31a776caf76b64eaecec690e3f649927ba34";
       flake = false;
     };
   };

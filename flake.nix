@@ -48,7 +48,7 @@
         patches = [
           (pkgs.fetchpatch {
             url = "https://github.com/renovatebot/renovate/compare/main...spotdemo4:renovate:nix.diff";
-            hash = "sha256-O7nVbAL99bYIFLwqnlIKkJQC2V6nZ/eSBBwT6YuieBw=";
+            hash = "sha256-r4ggOn+0P67N/Q5ivkPfRIcpcd4tmKAXq89kWAMgkMk=";
           })
         ];
 

@@ -12,8 +12,12 @@
       url = "github:nix-community/NUR";
       inputs.nixpkgs.follows = "nixpkgs";
     };
-    nur-pinned = {
+    nur-pin-rev = {
       url = "github:nix-community/NUR/3fbe860b7fef1063e585d17e1788248f160658d8";
+      inputs.nixpkgs.follows = "nixpkgs";
+    };
+    nur-pin-ref-rev = {
+      url = "git+https://github.com/nix-community/NUR?ref=main&rev=3fbe860b7fef1063e585d17e1788248f160658d8";
       inputs.nixpkgs.follows = "nixpkgs";
     };
   };
@@ -32,19 +36,19 @@
 
       patched-renovate = pkgs.stdenv.mkDerivation (finalAttrs: {
         pname = "renovate";
-        version = "41.45.0";
+        version = "41.62.2";
 
         src = pkgs.fetchFromGitHub {
           owner = "renovatebot";
           repo = "renovate";
           tag = finalAttrs.version;
-          hash = "sha256-0kwgK89ZqOXP/tzrbPQGG+EbJgUY3YGsGrMGSoP2i34=";
+          hash = "sha256-ueo8i3mbZ+M/4qDJAjTYG2JhMUrqU3bx2vFlVbspRc0=";
         };
 
         patches = [
           (pkgs.fetchpatch {
             url = "https://github.com/renovatebot/renovate/compare/main...spotdemo4:renovate:nix.diff";
-            hash = "sha256-k5TGfap8+s426he3H98CvPl9hdLi/19KfWAeaBMgn3U=";
+            hash = "sha256-O7nVbAL99bYIFLwqnlIKkJQC2V6nZ/eSBBwT6YuieBw=";
           })
         ];
 
@@ -66,7 +70,7 @@
         pnpmDeps = pkgs.pnpm_10.fetchDeps {
           inherit (finalAttrs) pname version src;
           fetcherVersion = 2;
-          hash = "sha256-zbirZPJe4ldNYk0T1wllUSTSPL935rLAM8dxlDPTzBc=";
+          hash = "sha256-uqpEWaYSwQJAYSHDVk51H2iawTC2rhO0FDyvu2rsPbw=";
         };
 
         env.COREPACK_ENABLE_STRICT = 0;

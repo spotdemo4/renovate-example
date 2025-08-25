@@ -13,7 +13,7 @@
       inputs.nixpkgs.follows = "nixpkgs";
     };
     renovate-main = {
-      url = "github:renovatebot/renovate/f0c5bdeebbc71e24efd53ef97a7f631ad7221238";
+      url = "github:renovatebot/renovate/86b9dafe378627f75ed772823371addd32da2f5f";
       flake = false;
     };
     renovate-next = {

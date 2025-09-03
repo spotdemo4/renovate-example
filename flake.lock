@@ -37,6 +37,19 @@
         "type": "github"
       }
     },
+    "nixpkgs-channel": {
+      "locked": {
+        "lastModified": 1756904031,
+        "narHash": "sha256-V29Bu1nR6Ayt+uUhf/6L43DSxb66BQ+8E2wH1GHa5IA=",
+        "rev": "0e6684e6c5755325f801bda1751a8a4038145d7d",
+        "type": "tarball",
+        "url": "https://releases.nixos.org/nixos/25.05/nixos-25.05.809350.0e6684e6c575/nixexprs.tar.xz"
+      },
+      "original": {
+        "type": "tarball",
+        "url": "https://channels.nixos.org/nixos-25.05/nixexprs.tar.xz"
+      }
+    },
     "nur": {
       "inputs": {
         "flake-parts": "flake-parts",
@@ -96,6 +109,7 @@
     "root": {
       "inputs": {
         "nixpkgs": "nixpkgs",
+        "nixpkgs-channel": "nixpkgs-channel",
         "nur": "nur",
         "renovate-main": "renovate-main",
         "renovate-next": "renovate-next",

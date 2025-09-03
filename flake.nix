@@ -4,6 +4,7 @@
   inputs = {
     systems.url = "systems";
     nixpkgs.url = "github:nixos/nixpkgs/nixos-unstable";
+    nixpkgs-channel.url = "https://channels.nixos.org/nixos-25.05/nixexprs.tar.xz";
     utils = {
       url = "github:numtide/flake-utils";
       inputs.systems.follows = "systems";

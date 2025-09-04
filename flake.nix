@@ -37,19 +37,19 @@
 
       patched-renovate = pkgs.stdenv.mkDerivation (finalAttrs: {
         pname = "renovate";
-        version = "41.62.2";
+        version = "41.96.0";
 
         src = pkgs.fetchFromGitHub {
           owner = "renovatebot";
           repo = "renovate";
           tag = finalAttrs.version;
-          hash = "sha256-ueo8i3mbZ+M/4qDJAjTYG2JhMUrqU3bx2vFlVbspRc0=";
+          hash = "sha256-KzsSW8NiK5FHQ3X7ftLjzzYJ8Z09B7yTp/4uoL9K63o=";
         };
 
         patches = [
           (pkgs.fetchpatch {
             url = "https://github.com/renovatebot/renovate/compare/main...spotdemo4:renovate:nix.diff";
-            hash = "sha256-t9WP+eb9hrZNzZOsuB7jGZ4f1NmbpMDv+B5MQcEhJkA=";
+            hash = "sha256-nUvX13yHOVqNd4VhYmg5TFavh/pREr7/PSXPiU4ZrKQ=";
           })
         ];
 
@@ -71,7 +71,7 @@
         pnpmDeps = pkgs.pnpm_10.fetchDeps {
           inherit (finalAttrs) pname version src;
           fetcherVersion = 2;
-          hash = "sha256-uqpEWaYSwQJAYSHDVk51H2iawTC2rhO0FDyvu2rsPbw=";
+          hash = "sha256-BmJhk+skI5+vbedi/lRlSknzVXk01osUepzoggSzRi0=";
         };
 
         env.COREPACK_ENABLE_STRICT = 0;

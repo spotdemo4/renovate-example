@@ -74,17 +74,17 @@
     "renovate-main": {
       "flake": false,
       "locked": {
-        "lastModified": 1758670236,
-        "narHash": "sha256-SvmvJq2jwWLS9DgrbdlmQ7aXyJdZQwEbdHpAuip9sjw=",
+        "lastModified": 1758777680,
+        "narHash": "sha256-y2XrbGK+Tc2WWO0Wpx1zQaFPVX4r6j8/S0Njh+FY+/k=",
         "owner": "renovatebot",
         "repo": "renovate",
-        "rev": "535f4a80a4ad1aa6adef6fb5db7017f157b1e65d",
+        "rev": "53eef4b42331fea68ea5121bdcb4378acf37ec65",
         "type": "github"
       },
       "original": {
         "owner": "renovatebot",
         "repo": "renovate",
-        "rev": "535f4a80a4ad1aa6adef6fb5db7017f157b1e65d",
+        "rev": "53eef4b42331fea68ea5121bdcb4378acf37ec65",
         "type": "github"
       }
     },

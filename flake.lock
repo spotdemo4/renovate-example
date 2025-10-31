@@ -74,34 +74,34 @@
     "renovate-main": {
       "flake": false,
       "locked": {
-        "lastModified": 1761776853,
-        "narHash": "sha256-BFRyMpBZk3DqbgRUOwzZ29oNRPO4WFiWdlUcGkZUW20=",
+        "lastModified": 1761874696,
+        "narHash": "sha256-TgIW+v45tWqPN4f5D35cJXpXF5o+eAqIqAKIm23QMnA=",
         "owner": "renovatebot",
         "repo": "renovate",
-        "rev": "215565e5386426f38bf0e40ac2803aecd7033944",
+        "rev": "cc86fce6593528facc4f1f363c8de36b330f1b8f",
         "type": "github"
       },
       "original": {
         "owner": "renovatebot",
         "repo": "renovate",
-        "rev": "215565e5386426f38bf0e40ac2803aecd7033944",
+        "rev": "cc86fce6593528facc4f1f363c8de36b330f1b8f",
         "type": "github"
       }
     },
     "renovate-next": {
       "flake": false,
       "locked": {
-        "lastModified": 1761747327,
-        "narHash": "sha256-1TMlR48xoF/fC1Jm6xU3X4YvNAjAfjBmTPYBOYX+DUE=",
+        "lastModified": 1761845922,
+        "narHash": "sha256-VA2Lb2lT4QyyVXVNZh/SDTFdMxViAY0VdhrqFbMDSwo=",
         "ref": "next",
-        "rev": "90386b52dd7b1818937c206dd561535b515444a6",
-        "revCount": 22951,
+        "rev": "d71ad6c7e99a061f95552a457a001962e804f552",
+        "revCount": 23065,
         "type": "git",
         "url": "https://github.com/renovatebot/renovate"
       },
       "original": {
         "ref": "next",
-        "rev": "90386b52dd7b1818937c206dd561535b515444a6",
+        "rev": "d71ad6c7e99a061f95552a457a001962e804f552",
         "type": "git",
         "url": "https://github.com/renovatebot/renovate"
       }
